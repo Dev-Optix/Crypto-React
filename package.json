@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dev-Optix/CryptoGA.git"
+    "url": "git+https://github.com/Dev-Optix/Crypto-React.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dev-Optix/CryptoGA/issues"
+    "url": "https://github.com/Dev-Optix/Crypto-React/issues"
   },
-  "homepage": "https://github.com/Dev-Optix/CryptoGA#readme",
+  "homepage": "https://github.com/Dev-Optix/Crypto-React#readme",
   "dependencies": {
     "dotenv": "^8.2.0"
   },
