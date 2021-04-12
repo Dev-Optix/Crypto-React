@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>CryptoGA</title>
+      <link rel="stylesheet" href="styles/normalize.css" media="screen" charset="utf-8">
+      <link rel="stylesheet" href="styles/html5bp.css" media="screen" charset="utf-8">
+      <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Firebase CDN -->
+      <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+          <section class="container">
+            <a href="#"><h1 id="cryptoTitle">Crypto</h1></a>
+            <nav>
+              <ul>
+                <li id="options"><a href="#" id="optionText">View Option <span id="sourceChoice"></span></a>
+                  <ul>
+                      <li><a id="cryptoList" href="#">Cryptocurrency List</a></li>
+                      <li><a id="favs" href="#">Favorites</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <section id="search">
+                <input type="text" name="name" value="">
+                <a href="#"><img src="images/search.png" alt="" /></a>
+              </section>
+            </nav>
+            <div class="clearfix"></div>
+          </section>
+        </header>
+
+
+
+        <!--Modal Setup-->
+        <div id="popUp" class="loader">
+          <button id="close" class="closePopUp"type="button">X</button>
+          <div id="modalInsert" class="container">
+           
+          </div>
+        </div>
+
+
+
+        <section id="main" class="container">
+          <!--Append from JS-->
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script type="module" src="js/app.js"></script>
+
+    </body>
+</html>
